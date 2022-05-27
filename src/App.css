@@ -73,6 +73,7 @@
     align-items: center;
     width: 400px;
     box-shadow: 3px 6px 10px grey;
+    cursor: pointer;
     
 }
 .img {
@@ -95,4 +96,34 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+}
+.input {
+    background-color: black;
+    color: white;
+    width: 250px;
+    border: 1px solid #ccc;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+.search-img {
+    margin: 2px;
+    align-content: center;
+    justify-content: flex-start;
+    height: 57px;
+    
+}
+.input-container {
+    align-items: center;
+   display: flex;
+   margin-left: 50px;
+}
+.pro-img {
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 80px;
 }
