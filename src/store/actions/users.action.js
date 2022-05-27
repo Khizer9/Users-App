@@ -11,7 +11,6 @@ export const getUsersData = () => async (dispatch) => {
     }
     catch (error) {
         console.log(error)
-        // dispatch(getUsersDataFailure())
     }
 }
 export const getUsersDataSuccess = (users) => {
